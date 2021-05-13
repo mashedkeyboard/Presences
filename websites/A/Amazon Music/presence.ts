@@ -63,7 +63,7 @@ presence.on("UpdateData", async () => {
           .querySelector("a.music-primary-text")
           .textContent.split(" - ")[0],
         pausedIcon = document
-          .querySelector("music-button.hydrated:nth-child(4)")
+          .querySelector("._2EZickYBrNGgbqeaZ5l5hr > music-button:nth-child(3)")
           .shadowRoot.querySelector("button > div > music-icon");
       paused = pausedIcon.attributes[1].value == "pause" ? false : true;
       currentTime = document.querySelector(
